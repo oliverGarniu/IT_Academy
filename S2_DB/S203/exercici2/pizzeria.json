@@ -1,0 +1,100 @@
+db.cliente.insert({
+    "_id":"",
+    "cliente_nombre":"",
+    "cliente_apellidos":"",
+    "dirección":"",
+    "CP":"",
+    "teléfono":"",
+    "pedido_id":"",
+    "localidad_id":"",
+    "provincia_id":""
+})
+
+db.localidad.insert({
+    "_id":"",
+    "localidad_nombre":"",
+    "provincia_id":""
+
+})
+
+db.provincia.insert({
+    "_id":"",
+    "provincia_nombre":"",
+    "localidad_id":""
+})
+
+db.pedido.insert({
+    "_id":"",
+    "fecha/hora": new Date(""),
+    "domicilio/tienda": {
+        "recogida_tienda":"",
+        "entrega_domicilio": {
+            "empleado_id":"",
+            "entrega_hora": new Date("")
+        }
+    },
+    "cantidad_productos": {
+        "pizzas_cantidad":"",
+        "hamburguesas_cantidad":"",
+        "bebidas_cantidad":""
+    },
+    "precio_total":"",
+    "cliente_id":"",
+    "pizzas_id":"",
+    "hamburguesas_id":"",
+    "bebidas_id":""
+})
+
+db.pizza.insert({
+    "_id":"",
+    "pizza_nombre":"",
+    "pizza_descripcion":"",
+    "pizza_imagen":"",
+    "pizza_precio":"",
+    "pedido_id":"",
+    "categoria_id":""
+})
+
+db.hamburguesa.insert({
+    "_id":"",
+    "hamburguesa_nombre":"",
+    "hamburguesa_descripcion":"",
+    "hamburguesa_imagen":"",
+    "hamburguesa_precio":"",
+    "pedido_id":""  
+})
+
+db.bebida.insert({
+    "_id":"",
+    "bebida_nombre":"",
+    "bebida_descripcion":"",
+    "bebida_imagen":"",
+    "bebida_precio":"",
+    "pedido_id":""
+})
+
+db.pizza_categoria.insert({
+    "_id":"",
+    "categoria_nombre":"",
+    "pizza_id":""
+})
+
+db.tienda.insert({
+    "_id":"",
+    "tienda_direccion":"",
+    "tienda_CP":"",
+    "localidad_id":"",
+    "provincia_id":"",
+    "empleado_id":""
+})
+
+db.empleado.insert({
+    "_id":"",
+    "empleado_nombre":"",
+    "empleado_apellidos":"",
+    "NIF":"",
+    "telefono":"",
+    "cocinero/repartidor":"",
+    "tienda_id":""
+})
+

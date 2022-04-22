@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="MongoDb" id="Project-1cf5" database="MongoDb" >
+	<schema name="culAmpolla" >
+		<table name="cliente" >
+			<column name="_id" type="oid" length="800" decimal="0" jt="-8" mandatory="y" />
+			<column name="nombre" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="dirección" type="object" length="800" decimal="0" jt="4999544" mandatory="y" >
+				<column name="calle" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="número" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="piso" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="puerta" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="ciudad" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="CP" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="pais" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			</column>
+			<column name="teléfono" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="email" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="fecha registro" type="date" length="800" decimal="0" jt="91" mandatory="y" />
+			<column name="cliente recomendado por" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<index name="_id_" unique="PRIMARY_KEY" >
+				<column name="_id" />
+			</index>
+		</table>
+		<table name="gafas" >
+			<column name="_id" type="oid" length="800" decimal="0" jt="-8" mandatory="y" />
+			<column name="marca" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="graduación" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="tipo de montura" type="object" length="800" decimal="0" jt="4999544" mandatory="y" >
+				<column name="flotante" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="pasta" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="metálica" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			</column>
+			<column name="color montura" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="color cristal" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="precio" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<index name="_id_" unique="PRIMARY_KEY" >
+				<column name="_id" />
+			</index>
+		</table>
+		<table name="proveedor" >
+			<column name="_id" type="oid" length="800" decimal="0" jt="-8" mandatory="y" />
+			<column name="nombre" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="dirección" type="object" length="800" decimal="0" jt="4999544" mandatory="y" >
+				<column name="calle" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="número" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="piso" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="puerta" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="ciudad" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="CP" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+				<column name="pais" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			</column>
+			<column name="teléfono" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="fax" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<column name="NIF" type="string" length="800" decimal="0" jt="12" mandatory="y" />
+			<index name="_id_" unique="PRIMARY_KEY" >
+				<column name="_id" />
+			</index>
+			<fk name="fk_proveedor_proveedor" virtual="y" to_schema="culAmpolla" to_table="gafas" >
+				<fk_column name="_id" pk="_id" />
+			</fk>
+		</table>
+	</schema>
+	<connector name="MongoDb" database="MongoDb" driver_class="com.dbschema.MongoJdbcDriver" driver_jar="mongojdbc3.1.jar" driver_desc="No Authentication" host="localhost" port="27017" instance="culAmpolla" user="admin" />
+	<layout name="Main Layout" id="Layout-12db" show_column_type="y" show_relation="name" >
+		<entity schema="culAmpolla" name="cliente" color="BED3F4" x="48" y="176" />
+		<entity schema="culAmpolla" name="cliente" column="dirección" color="BED3F4" x="304" y="176" />
+		<entity schema="culAmpolla" name="proveedor" column="dirección" color="F4DDBE" x="720" y="480" />
+		<entity schema="culAmpolla" name="gafas" color="C7F4BE" x="544" y="176" />
+		<entity schema="culAmpolla" name="proveedor" color="F4DDBE" x="544" y="480" />
+		<entity schema="culAmpolla" name="gafas" column="tipo de montura" color="C7F4BE" x="752" y="176" />
+		<callout x="48" y="80" pointer="Round" >
+			<comment><![CDATA[Double-click collection headers or fields to edit.
+Create multiple layouts (diagrams) with the same or different collections. 
+Saving the model to file will save also the layouts.]]></comment>
+		</callout>
+		<group name="Collection &#039;cliente&#039;" color="ECF0F7" >
+			<entity schema="culAmpolla" name="cliente" />
+			<entity schema="culAmpolla" name="cliente" column="dirección" />
+		</group>
+		<group name="Collection &#039;gafas&#039;" color="EEF7EC" >
+			<entity schema="culAmpolla" name="gafas" />
+			<entity schema="culAmpolla" name="gafas" column="tipo de montura" />
+		</group>
+		<group name="Collection &#039;proveedor&#039;" color="F7F2EC" >
+			<entity schema="culAmpolla" name="proveedor" />
+			<entity schema="culAmpolla" name="proveedor" column="dirección" />
+		</group>
+	</layout>
+	<layout name="~Layout with Sample Tools" id="Layout-219b" confirmed="y" show_column_type="y" show_relation="name" >
+		<entity schema="culAmpolla" name="cliente" color="BED3F4" x="48" y="96" />
+		<entity schema="culAmpolla" name="proveedor" column="dirección" color="F4DDBE" x="720" y="400" />
+		<entity schema="culAmpolla" name="cliente" column="dirección" color="BED3F4" x="320" y="80" />
+		<entity schema="culAmpolla" name="gafas" color="C7F4BE" x="544" y="80" />
+		<entity schema="culAmpolla" name="proveedor" color="F4DDBE" x="544" y="400" />
+		<entity schema="culAmpolla" name="gafas" column="tipo de montura" color="C7F4BE" x="752" y="80" />
+		<group name="cliente" color="ECF0F7" >
+			<entity schema="culAmpolla" name="cliente" />
+			<entity schema="culAmpolla" name="cliente" column="dirección" />
+		</group>
+		<group name="gafas" color="EEF7EC" >
+			<entity schema="culAmpolla" name="gafas" column="tipo de montura" />
+			<entity schema="culAmpolla" name="gafas" />
+		</group>
+		<group name="proveedor" color="F7F2EC" >
+			<entity schema="culAmpolla" name="proveedor" column="dirección" />
+			<entity schema="culAmpolla" name="proveedor" />
+		</group>
+		<script name="Query Editor" id="Editor-1911" language="SQL" >
+			<string><![CDATA[culAmpolla.cliente.find()
+
+//OR
+
+USE culAmpolla;
+db.cliente.find()
+
+//OR
+
+USE culAmpolla;
+db.getCollection('cliente').find()]]></string>
+		</script>
+	</layout>
+</project>

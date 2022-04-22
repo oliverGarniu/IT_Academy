@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "1092406e-1734-48a0-9442-fc25cb0eac41",
+		"name": "EnvironmentsRequests.n1.f3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "enviroment.HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/v1/",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enviroment.HelloNom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/v1/hello/Oliver",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1",
+						"hello",
+						"Oliver"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

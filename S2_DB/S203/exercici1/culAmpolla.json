@@ -1,0 +1,66 @@
+ db.proveedor.insert({
+    "_id":"",
+    "gafas_id": [
+        {
+            "gafas_id_1":"",
+            "gafas_id_2":"",
+            "gafas_id_3":"",
+            "gafas_id_4":"",
+            "gafas_id_5":""
+        }
+    ],
+     "nombre":"",
+     "dirección": {
+         "calle":"",   
+         "número":"",
+         "piso":"",
+         "puerta":"",
+         "ciudad":"",
+         "CP":"",
+         "pais":""
+     },
+     "teléfono":"",
+     "fax":"",
+     "NIF":""
+ })
+
+
+ db.gafas.insert({
+    "_id":"",
+    "proveedor_id":"",
+     "marca":"",
+     "graduación":"",
+     "tipo de montura":{
+         "flotante":"",
+         "pasta":"",
+         "metálica":""
+     },
+     "color montura":"",
+     "color cristal":"",
+     "precio":""
+ })
+
+ db.cliente.insert({
+     "_id":"",
+     "nombre":"",
+     "dirección": {
+         "calle":"",
+         "número":"",
+         "piso":"",
+         "puerta":"",
+         "ciudad":"",
+         "CP":"",
+         "pais":""
+     },
+     "teléfono":"",
+     "email":"",
+     "fecha registro": new Date(""),
+     "cliente recomendado por":"",
+     "empleado_id":""
+ })
+
+ db.empleado.insert({
+     "_id":"",
+     "empleado_nombre":"",
+     "empleado_apellidos":""
+ })
