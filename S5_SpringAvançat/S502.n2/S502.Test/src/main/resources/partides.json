@@ -1,0 +1,373 @@
+[
+	{
+		"partida_id" : 1,
+		"dau_1" : 2,
+		"dau_2" : 5,
+		"winner" : "1",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 2,
+		"dau_1" : 5,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 3,
+		"dau_1" : 6,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 4,
+		"dau_1" : 5,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 5,
+		"dau_1" : 4,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 6,
+		"dau_1" : 6,
+		"dau_2" : 3,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 7,
+		"dau_1" : 1,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 8,
+		"dau_1" : 5,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 1
+	},
+	{
+		"partida_id" : 9,
+		"dau_1" : 4,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 10,
+		"dau_1" : 1,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 11,
+		"dau_1" : 6,
+		"dau_2" : 1,
+		"winner" : "1",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 12,
+		"dau_1" : 4,
+		"dau_2" : 3,
+		"winner" : "1",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 13,
+		"dau_1" : 4,
+		"dau_2" : 3,
+		"winner" : "1",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 14,
+		"dau_1" : 1,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 15,
+		"dau_1" : 4,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 16,
+		"dau_1" : 2,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 17,
+		"dau_1" : 4,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 18,
+		"dau_1" : 4,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 2
+	},
+	{
+		"partida_id" : 19,
+		"dau_1" : 2,
+		"dau_2" : 3,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 20,
+		"dau_1" : 2,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 21,
+		"dau_1" : 5,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 22,
+		"dau_1" : 1,
+		"dau_2" : 6,
+		"winner" : "1",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 23,
+		"dau_1" : 5,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 24,
+		"dau_1" : 1,
+		"dau_2" : 3,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 25,
+		"dau_1" : 5,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 26,
+		"dau_1" : 5,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 27,
+		"dau_1" : 4,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 28,
+		"dau_1" : 3,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 3
+	},
+	{
+		"partida_id" : 29,
+		"dau_1" : 2,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 4
+	},
+	{
+		"partida_id" : 30,
+		"dau_1" : 4,
+		"dau_2" : 2,
+		"winner" : "0",
+		"jugador_id" : 4
+	},
+	{
+		"partida_id" : 31,
+		"dau_1" : 1,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 4
+	},
+	{
+		"partida_id" : 32,
+		"dau_1" : 6,
+		"dau_2" : 1,
+		"winner" : "1",
+		"jugador_id" : 4
+	},
+	{
+		"partida_id" : 33,
+		"dau_1" : 1,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 4
+	},
+	{
+		"partida_id" : 34,
+		"dau_1" : 3,
+		"dau_2" : 4,
+		"winner" : "1",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 35,
+		"dau_1" : 1,
+		"dau_2" : 3,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 36,
+		"dau_1" : 4,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 37,
+		"dau_1" : 6,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 38,
+		"dau_1" : 1,
+		"dau_2" : 6,
+		"winner" : "1",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 39,
+		"dau_1" : 5,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 40,
+		"dau_1" : 2,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 41,
+		"dau_1" : 3,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 42,
+		"dau_1" : 4,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 5
+	},
+	{
+		"partida_id" : 43,
+		"dau_1" : 2,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 44,
+		"dau_1" : 3,
+		"dau_2" : 3,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 45,
+		"dau_1" : 2,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 46,
+		"dau_1" : 1,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 47,
+		"dau_1" : 3,
+		"dau_2" : 5,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 48,
+		"dau_1" : 6,
+		"dau_2" : 2,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 49,
+		"dau_1" : 3,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 50,
+		"dau_1" : 1,
+		"dau_2" : 2,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 51,
+		"dau_1" : 3,
+		"dau_2" : 1,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 52,
+		"dau_1" : 2,
+		"dau_2" : 4,
+		"winner" : "0",
+		"jugador_id" : 6
+	},
+	{
+		"partida_id" : 53,
+		"dau_1" : 5,
+		"dau_2" : 6,
+		"winner" : "0",
+		"jugador_id" : 6
+	}
+]
