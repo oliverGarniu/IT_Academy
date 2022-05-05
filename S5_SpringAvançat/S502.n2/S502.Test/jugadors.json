@@ -1,0 +1,32 @@
+[
+	{
+		"jugador_id" : 1,
+		"date" : "2022-04-16",
+		"jugador_name" : "Kai"
+	},
+	{
+		"jugador_id" : 2,
+		"date" : "2022-04-16",
+		"jugador_name" : "Anonymous"
+	},
+	{
+		"jugador_id" : 3,
+		"date" : "2022-04-16",
+		"jugador_name" : "Anonymous 1"
+	},
+	{
+		"jugador_id" : 4,
+		"date" : "2022-04-16",
+		"jugador_name" : "Anonymous 2"
+	},
+	{
+		"jugador_id" : 5,
+		"date" : "2022-04-16",
+		"jugador_name" : "Koa"
+	},
+	{
+		"jugador_id" : 6,
+		"date" : "2022-04-16",
+		"jugador_name" : "Aina"
+	}
+]
